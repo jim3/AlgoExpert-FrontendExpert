@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sign-Up Form Exercise</title>
+</head>
+<body>
+    <!-- Write your code here. -->
+    <form method="POST">
+        <label for="username">Username:</label>
+        <input type="text" id="username" name="username" required />                    
+        <label for="pass">Password:</label>
+        <input type="password" id="pass" name="pass" required />                    
+        <label for="email">Email:</label>
+        <input type="email" name="email" id="email" required />                    
+        <label for="number">Phone Number:</label>
+        <input type="tel" id="number">
+        <label for="start">Date of Birth:</label>
+        <input
+              type="date"
+              id="start"
+              name="dob-start"
+              value="mm/dd/yyyy"
+              min="2024-01-01"
+              max="2024-12-31"
+          />               
+          <label for="tos">I agree to the TOS</label>
+          <input type="checkbox" id="tos" name="tos" required />
+      <input type="submit" value="Sign Up" />                
+</form>
+</body>
+</html>
